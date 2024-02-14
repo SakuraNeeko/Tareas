@@ -154,6 +154,7 @@
             if (!completadas.includes(id)) {
                 completadas.push(id);
                 localStorage.setItem('completadas', JSON.stringify(completadas));
+            //Esta parte si marca el estado, pero no se queda actualizado (revisar)
             }
         }
 

@@ -28,6 +28,8 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         echo "Error al marcar la tarea como completada: " . $conn->error;
     }
 
+    //Preguntar al ingeniero como hacer para que al recargar la página los botones presionados se matengan
+    
     // Cerrar conexión
     $conn->close();
 } else {
